@@ -254,7 +254,6 @@ if __name__ == "__main__":
     # Analyze the data
     analyzer = analyze_gene_expression_data(
         file_path,
-        # Add any additional pandas read_csv parameters here
-        # sep='\t',  # for tab-separated files
-        # comment='#',  # skip lines starting with #
+        # sep='\t',  
+        # comment='#',  
     )
