@@ -35,7 +35,41 @@ python DEG-analysis.py data.csv
 
 
 ----
+-----
 
 
+### 2- aligncheck.py :
+
+#### ⬇️ Automizing samtool commands by giving a short, complete overview of your aligned reads.
+
+
+- Comprehensive mapping quality analysis - not just averages, but full distribution across thresholds (0, ≤10, ≤30, >30)
+
+- Complete CIGAR operation breakdown - see exact counts for matches, inserts, deletions, soft/hard clips
+
+- Smart insert size calculation - automatically filters outliers and provides both mean & median
+
+- Strand-specific mapping stats - forward vs reverse strand distribution at a glance
+
+- All quality flags decoded - QC failures, duplicates, secondary/supplementary alignments in one view
+
+#### download libraries :
+
+```bash
+conda install -c condaforge pysam
+```
+
+##### run the Python script with your BAM file :
+
+``` bash
+python aligncheck.py x.bam
+```
+
+##### Example output :
+<img width="1614" height="866" alt="2025-11-26_15-5226" src="https://github.com/user-attachments/assets/bf2e0a02-7809-49f0-b951-5a6849dc1bd5" />
+
+
+----
+-----
 
 
