@@ -69,6 +69,8 @@ python aligncheck.py x.bam
 <img width="1614" height="866" alt="2025-11-26_15-5226" src="https://github.com/user-attachments/assets/bf2e0a02-7809-49f0-b951-5a6849dc1bd5" />
 
 
+
+Inspired by the book: Bioinformatics Data Skills by Vince Buffalo
 ----
 -----
 
