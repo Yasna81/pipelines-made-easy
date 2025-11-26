@@ -70,7 +70,11 @@ python aligncheck.py x.bam
 
 
 
+
+
 Inspired by the book: Bioinformatics Data Skills by Vince Buffalo
+
+
 ----
 -----
 
